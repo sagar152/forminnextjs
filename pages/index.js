@@ -113,8 +113,7 @@ export default function Home() {
                           <div className="mt-2 mb-5">
                             <label
                               htmlFor="img"
-                              className="btn"
-                              className={styles.uploadtext}
+                              className={`btn ${styles.uploadtext}`}
                               style={{
                                 fontFamily: "Open Sans",
                                 fontWeight: "bold",
